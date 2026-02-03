@@ -22,11 +22,6 @@ The `.xp` format is REXPaint's native binary file format. Files are gzip compres
 `pyrexpaint` lets you load REXPaint ASCII art into Python programs—handy for roguelike games, terminal applications, or rendering with ncurses.
 
 
-# Requirements
-
-Python 3.6+ with no external dependencies (just uses `gzip`, `typing`, and `dataclasses` from the standard library).
-
-
 # Installation
 
 
