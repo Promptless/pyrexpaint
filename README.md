@@ -4,7 +4,7 @@
 # Details
 `pyrexpaint` is a small API for loading .xp files into python programs. So small, there is a single function provided called `load`.
 
-An .xp file is the custom binary format used by the ASCII art editor [REXPaint](https://www.gridsagegames.com/rexpaint/index.html).
+An .xp file is the custom binary format used by the ASCII art editor [REXPaint](https://www.gridsagegames.com/rexpaint/index.html). REXPaint is popular among game developers for creating ASCII art assets, especially for roguelikes and text-based games. Use pyrexpaint to load these assets into Python terminal applications with libraries like ncurses or blessed.
 
 
 # Installation
