@@ -5,7 +5,11 @@
 
 `pyrexpaint` is a small library for loading .xp files into Python programs. So small, there is a single function provided called `load`.
 
-An .xp file is the custom binary format used by the ASCII art editor [REXPaint](https://www.gridsagegames.com/rexpaint/index.html).
+## About REXPaint
+
+[REXPaint](https://www.gridsagegames.com/rexpaint/index.html) is an ASCII art editor by Grid Sage Games, popular in the roguelike game development community for creating ANSI art, game mockups, maps, and UI layouts. It saves images in a custom compressed binary format (`.xp` files) that supports multiple layers, custom fonts, and full RGB color data for each character cell. REXPaint is Windows-only but runs well under Wine on Linux and macOS.
+
+## About pyrexpaint
 
 The library has no dependencies—it uses only the Python standard library (gzip, dataclasses). It supports multi-layer images, returning structured layer and tile data including ASCII codes and foreground/background RGB colors for every tile.
 
