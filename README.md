@@ -7,6 +7,23 @@
 An .xp file is the custom binary format used by the ASCII art editor [REXPaint](https://www.gridsagegames.com/rexpaint/index.html).
 
 
+# About REXPaint
+
+[REXPaint](https://www.gridsagegames.com/rexpaint/index.html) is a free ASCII art editor from [Grid Sage Games](http://www.gridsagegames.com/). It's commonly used for roguelike mockups, game UI layouts, and ANSI art.
+
+## Features
+
+- Edit characters, foreground, and background colors separately
+- Multi-layer support
+- True-color RGB/HSV/hex color picker
+- Custom fonts, extended characters, and tilesets
+- Export to PNG, ANS, TXT, CSV, XML, and `.xp` (compressed)
+
+## Platform
+
+Windows-only, but works under Wine on Linux and macOS.
+
+
 # Installation
 
 
